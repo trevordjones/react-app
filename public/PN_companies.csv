@@ -1,0 +1,990 @@
+Company,City,State,Industry,
+21st Century Fox, New York, NY, Media & Entertainment,
+3M Company, Saint Paul, MN, Manufacturing,
+A. O. Smith, Milwaukee, WI, Manufacturing,
+A. Schulman Inc., Fairlawn, OH, Manufacturing,
+Groupon , Chicago, IL, Advertising,
+Interpublic Group , New York, NY, Advertising,
+Omnicom Group , New York, NY, Advertising,
+AAR , Wood Dale, IL, Aerospace and Defense,
+B/E Aerospace , Wellington, FL, Aerospace and Defense,
+Benchmark Electronics , Angleton, TX, Aerospace and Defense,
+Boeing , Chicago, IL, Aerospace and Defense,
+Curtiss-Wright , Charlotte, NC, Aerospace and Defense,
+Dyn Corp International , Mc Lean, VA, Aerospace and Defense,
+Esterline Technologies , Bellevue, WA, Aerospace and Defense,
+Exelis , Mc Lean, VA, Aerospace and Defense,
+General Dynamics , Falls Church, VA, Aerospace and Defense,
+Honeywell International , Morristown, NJ, Aerospace and Defense,
+ITT , West Harrison, NY, Aerospace and Defense,
+L-3 Communications , New York, NY, Aerospace and Defense,
+Lockheed Martin , Bethesda, MD, Aerospace and Defense,
+Moog, East Aurora, NY, Aerospace and Defense,
+Northrop Grumman , Falls Church, VA, Aerospace and Defense,
+Orbital ATK , Sterling, VA, Aerospace and Defense,
+Rexnord, Milwaukee, WI, Aerospace and Defense,
+Rockwell Collins , Cedar Rapids, IA, Aerospace and Defense,
+Sunpower , Athens, OH, Aerospace and Defense,
+Teledyne Technologies, Thousand Oaks, CA, Aerospace and Defense,
+Textron Systems, Wilmington, MA, Aerospace and Defense,
+TransDigm Group , Cleveland, OH, Aerospace and Defense,
+Triumph Group , Berwyn, PA, Aerospace and Defense,
+United Technologies , Hartford, CT, Aerospace and Defense,
+Woodward , Fort Collins, CO, Aerospace and Defense,
+Textron , Providence, RI, Aerospace and Defense ,
+CF Industries , Deerfield, IL, Agriculture & Mining,
+CHS , Inver Grove Heights, MN, Agriculture & Mining,
+Monsanto, Saint Louis, MO, Agriculture & Mining,
+Alliance One International , Morrisville, NC, Agriculture & Mining,
+Archer Daniels Midland , Chicago, IL, Agriculture & Mining,
+W.R. Grace & Co., Columbia, MD, Agriculture & Mining,
+Alliance Holdings , Tulsa, OK, Agriculture & Mining,
+Alpha Natural Resources, Abingdon, VA, Agriculture & Mining,
+Cliffs Natural Resources , Cleveland, OH, Agriculture & Mining,
+Concho Resources , Midland, TX, Agriculture & Mining,
+Freeport-McMoRan Copper & Gold , Phoenix, AZ, Agriculture & Mining,
+Granite Construction, Watsonville, CA, Agriculture & Mining,
+Newmont Mining , Greenwood Vlg, CO, Agriculture & Mining,
+Vulcan Materials , Birmingham, AL, Agriculture & Mining,
+Alaska Air Group , Seattle, WA, Airline,
+American Airlines, Fort Worth, TX, Airline,
+Delta Air Lines , Atlanta, GA, Airline,
+Hawaiian Airlines, Honolulu, HI, Airline,
+JetBlue , Long Island City, NY, Airline,
+Republic Airways , Indianapolis, IN, Airline,
+SkyWest , Saint George, UT, Airline,
+Southwest Airlines , Dallas, TX, Airline,
+United Continental , Chicago, IL, Airline,
+Beam Suntory, Deerfield, IL, Alcoholic Beverages,
+Brown-Forman , Louisville, KY, Alcoholic Beverages,
+Constellation Brands , Victor, NY, Alcoholic Beverages,
+Molson Coors Brewing , Denver, CO, Alcoholic Beverages,
+Coca-Cola , Atlanta, GA, Beverages,
+Dr Pepper Snapple Group, Plano, TX, Beverages,
+Keurig Green Mountain , Waterbury, VT, Beverages,
+Monster Beverage , Corona, CA, Beverages,
+PepsiCo , Purchase, NY, Beverages,
+Alliance Data Systems , Plano, TX, Business Services,
+Avery Dennison Graphics, Painesville, OH, Business Services,
+Pool , Covington, LA, Business Services,
+American Equity Investment Life , West Des Moines, IA, Business Services,
+Aramark, Philadelphia, PA, Business Services,
+Convergys , Cincinnati, OH, Business Services,
+Equifax , Atlanta, GA, Business Services,
+Momentive Performance Materials Quartz , Willoughby, OH, Business Services,
+Paychex , Rochester, NY, Business Services,
+Public Self Storage, Rockford, IL, Business Services,
+Sprague Resources, Portsmouth, NH, Business Services,
+Avis Budget Group, Parsippany, NJ, Car Rental ,
+Hertz , Naples, FL, Car Rental ,
+Advanced Micro Devices, Sunnyvale, CA, Computers & Electronics,
+Ametek, Berwyn, PA, Computers & Electronics,
+Amkor Technology , Chandler, AZ, Computers & Electronics,
+Amphenol , Wallingford, CT, Computers & Electronics,
+Analog Devices, Norwood, MA, Computers & Electronics,
+Apple , Cupertino, CA, Computers & Electronics,
+Applied Materials, Santa Clara, CA, Computers & Electronics,
+Arrow Electronics, Centennial, CO, Computers & Electronics,
+Avnet , Phoenix, AZ, Computers & Electronics,
+Belden , Saint Louis, MO, Computers & Electronics,
+Best Buy , Minneapolis, MN, Computers & Electronics,
+Broadcom , Irvine, CA, Computers & Electronics,
+Brocade Communications Systems , San Jose, CA, Computers & Electronics,
+CDW, Vernon Hills, IL, Computers & Electronics,
+Cisco Systems , San Jose, CA, Computers & Electronics,
+Cognizant Technology Solutions , Teaneck, NJ, Computers & Electronics,
+DST Systems., Kansas City, MO, Computers & Electronics,
+Eastman Kodak, Rochester, NY, Computers & Electronics,
+EchoStar , Englewood, CO, Computers & Electronics,
+EMC , Hopkinton, MA, Computers & Electronics,
+Equinix ., Redwood City, CA, Computers & Electronics,
+General Cable , Highland Heights, KY, Computers & Electronics,
+Harman International , Stamford, CT, Computers & Electronics,
+Hewlett-Packard , Palo Alto, CA, Computers & Electronics,
+IBM, Armonk, NY, Computers & Electronics,
+Ingram Micro , Santa Ana, CA, Computers & Electronics,
+Insight Enterprises, Tempe, AZ, Computers & Electronics,
+Intel , Santa Clara, CA, Computers & Electronics,
+Itron , Liberty Lake, WA, Computers & Electronics,
+Jabil Circuit , Saint Petersburg, FL, Computers & Electronics,
+Juniper Networks , Sunnyvale, CA, Computers & Electronics,
+KLA-Tencor , Milpitas, CA, Computers & Electronics,
+Lam Research, Fremont, CA, Computers & Electronics,
+Lennox International , Richardson, TX, Computers & Electronics,
+Lexmark International , Lexington, KY, Computers & Electronics,
+LSI , San Jose, CA, Computers & Electronics,
+ManTech International , Fairfax, VA, Computers & Electronics,
+Micron Technology , Boise, ID, Computers & Electronics,
+Molex , Lisle, IL, Computers & Electronics,
+NCR , Duluth, GA, Computers & Electronics,
+NVIDIA , Santa Clara, CA, Computers & Electronics,
+ON Semiconductor , Phoenix, AZ, Computers & Electronics,
+PC Connection , Merrimack, NH, Computers & Electronics,
+SanDisk , Milpitas, CA, Computers & Electronics,
+Sanmina , San Jose, CA, Computers & Electronics,
+ScanSource , Greenville, SC, Computers & Electronics,
+SunGard, Wayne, PA, Computers & Electronics,
+Synopsys , Mountain View, CA, Computers & Electronics,
+Systemax , Port Washington, NY, Computers & Electronics,
+Tech Data , Clearwater, FL, Computers & Electronics,
+Texas Instruments , Dallas, TX, Computers & Electronics,
+Trimble Navigation , Sunnyvale, CA, Computers & Electronics,
+Unisys , Blue Bell, PA, Computers & Electronics,
+Vishay Intertechnology , Malvern, PA, Computers & Electronics,
+Waters Corporation, Milford, MA, Computers & Electronics,
+Western Digital Corporation, Irvine, CA, Computers & Electronics,
+Xerox , Norwalk, CT, Computers & Electronics,
+Xilinx , San Jose, CA, Computers & Electronics,
+CH2M HILL, Englewood, CO, Construction,
+Fluor , Irving, TX, Construction,
+Quanta Services, Houston, TX, Construction,
+Standard Pacific , Irvine, CA, Construction,
+URS Corporation, San Francisco, CA, Construction,
+Hershey , Hershey, PA, Consumer Products,
+J. M. Smucker , Orrville, OH, Consumer Products,
+Sanderson Farms , Laurel, MS, Consumer Products,
+Smithfield Foods , Smithfield, VA, Consumer Products,
+Titan International , Quincy, IL, Consumer Products,
+Treehouse Foods , Oak Brook, IL, Consumer Products,
+Tyson Foods , Springdale, AR, Consumer Products,
+Valmont Industries , Omaha, NE, Consumer Products,
+AGCO Corporation, Duluth, GA, Consumer Products,
+Campbell Soup Co., Camden, NJ, Consumer Products,
+Chiquita Brands International , Charlotte, NC, Consumer Products,
+Clorox, Oakland, CA, Consumer Products,
+ConAgra Foods , Omaha, NE, Consumer Products,
+Crown Holdings , Philadelphia, PA, Consumer Products,
+Dean Foods , Dallas, TX, Consumer Products,
+Del Monte Foods., Walnut Creek, CA, Consumer Products,
+Estee Lauder , New York, NY, Consumer Products,
+Flowers Foods , Thomasville, GA, Consumer Products,
+General Mills , Minneapolis, MN, Consumer Products,
+Hormel Foods , Austin, MN, Consumer Products,
+Ingredion , Westchester, IL, Consumer Products,
+Kellogg , Battle Creek, MI, Consumer Products,
+Kraft Heinz , Pittsburgh, PA, Consumer Products,
+LAND O'LAKES , Saint Paul, MN, Consumer Products,
+McCormick & Company , Sparks, MD, Consumer Products,
+Mead Johnson , Glenview, IL, Consumer Products,
+Michael Foods , Minnetonka, MN, Consumer Products,
+Pinnacle Foods Group , Parsippany, NJ, Consumer Products,
+Mondelez International , Deerfield, IL, Consumer Products,
+United Natural , Providence, RI, Consumer Products,
+Colgate-Palmolive, New York, NY, Consumer Products,
+Coty, New York, NY, Consumer Products,
+Procter & Gamble , Cincinnati, OH, Consumer Products,
+Service Corporation International (SCI), Houston, TX, Consumer Services,
+ServiceMaster , Memphis, TN, Consumer Services,
+Triple-S Salud , Guaynabo, PR, Consumer Services,
+Assurant , New York, NY, Data Management,
+Teradata , Miamisburg, OH, Data Management,
+eBay , San Jose, CA, E-commerce,
+Amazon, Seattle, WA, E-commerce ,
+Carrington Education , Phoenix, AZ, Education,
+DeVry Education , Downers Grove, IL, Education,
+Education Management , Pittsburgh, PA, Education,
+Graham Holdings, Washington, DC, Education,
+Adams Resources & Energy , Houston, TX, Energy & Utilities,
+AGL Resources , Atlanta, GA, Energy & Utilities,
+Alliant Energy , Madison, WI, Energy & Utilities,
+Ameren , Saint Louis, MO, Energy & Utilities,
+American Electric Power Company , Columbus, OH, Energy & Utilities,
+American Water Works Company , Voorhees, NJ, Energy & Utilities,
+Anadarko Petroleum , Spring, TX, Energy & Utilities,
+Apache , Houston, TX, Energy & Utilities,
+Arch Coal , Saint Louis, MO, Energy & Utilities,
+Baker Hughes , Houston, TX, Energy & Utilities,
+Buckeye Partners , Houston, TX, Energy & Utilities,
+Calpine , Houston, TX, Energy & Utilities,
+Calumet Specialty Products , Indianapolis, IN, Energy & Utilities,
+Cameron International, Houston, TX, Energy & Utilities,
+CenterPoint Energy , Houston, TX, Energy & Utilities,
+Chesapeake Energy , Oklahoma City, OK, Energy & Utilities,
+Chevron , San Ramon, CA, Energy & Utilities,
+Cimarex Energy , Denver, CO, Energy & Utilities,
+Clean Harbors , Norwell, MA, Energy & Utilities,
+CMS Energy , Jackson, MI, Energy & Utilities,
+ConocoPhillips," Houston""", TX, Energy & Utilities,
+CONSOL Energy , Canonsburg, PA, Energy & Utilities,
+Consolidated Edison , New York, NY, Energy & Utilities,
+DCP Midstream Partners , Denver, CO, Energy & Utilities,
+Denbury Resources , Plano, TX, Energy & Utilities,
+Devon Energy , Oklahoma City, OK, Energy & Utilities,
+Dominion Resources, Richmond, VA, Energy & Utilities,
+DTE Energy , Detroit, MI, Energy & Utilities,
+Duke Energy , Charlotte, NC, Energy & Utilities,
+Edison, Rosemead, CA, Energy & Utilities,
+Energy Future , Dallas, TX, Energy & Utilities,
+Energy Transfer Partners, Dallas, TX, Energy & Utilities,
+Enlink Midstream, Dallas, TX, Energy & Utilities,
+Entergy Corporation, New Orleans, LA, Energy & Utilities,
+Enterprise Products , Houston, TX, Energy & Utilities,
+EOG Resources , Houston, TX, Energy & Utilities,
+EQT Corporation, Pittsburgh, PA, Energy & Utilities,
+EQT Midstream , Pittsburgh, PA, Energy & Utilities,
+ERG Energy , Houston, TX, Energy & Utilities,
+Exelon , Chicago, IL, Energy & Utilities,
+Exxon Mobil , Irving, TX, Energy & Utilities,
+First Solar , Tempe, AZ, Energy & Utilities,
+FirstEnergy , Akron, OH, Energy & Utilities,
+FMC Technologies, Houston, TX, Energy & Utilities,
+Genesis Energy , Houston, TX, Energy & Utilities,
+Halliburton , Houston, TX, Energy & Utilities,
+Hawaiian Electric Industries, Honolulu, HI, Energy & Utilities,
+Helmerich & Payne, Tulsa, OK, Energy & Utilities,
+Hess , New York, NY, Energy & Utilities,
+HollyFrontier , Dallas, TX, Energy & Utilities,
+Integrys , Chicago, IL, Energy & Utilities,
+Kansas City Power & Light, Kansas City, MO, Energy & Utilities,
+Kinder Morgan, Houston, TX, Energy & Utilities,
+Lehigh Gas , Allentown, PA, Energy & Utilities,
+Linn Energy , Houston, TX, Energy & Utilities,
+Marathon Oil , Houston, TX, Energy & Utilities,
+Marathon Petroleum , Findlay, OH, Energy & Utilities,
+MDU Resources Group, Bismarck, ND, Energy & Utilities,
+Murphy Oil , El Dorado, AR, Energy & Utilities,
+Murphy USA , El Dorado, AR, Energy & Utilities,
+New Jersey Resources , Wall Township, NJ, Energy & Utilities,
+Newfield Exploration , The Woodlands, TX, Energy & Utilities,
+NextEra Energy , Juno Beach, FL, Energy & Utilities,
+NGL Energy Partners, Tulsa, OK, Energy & Utilities,
+NiSource , Merrillville, IN, Energy & Utilities,
+Noble Energy , Houston, TX, Energy & Utilities,
+Northern Tier Energy, Tempe, AZ, Energy & Utilities,
+NRG Energy , Princeton, NJ, Energy & Utilities,
+Oceaneering International , Houston, TX, Energy & Utilities,
+OGE Energy , Oklahoma City, OK, Energy & Utilities,
+ONEOK , Tulsa, OK, Energy & Utilities,
+Pacific Gas and Electric , San Francisco, CA, Energy & Utilities,
+Patterson-UTI Energy , Houston, TX, Energy & Utilities,
+PBF Energy Partners , Parsippany, NJ, Energy & Utilities,
+Peabody Energy , Saint Louis, MO, Energy & Utilities,
+Pepco Holdings , Washington, DC, Energy & Utilities,
+Phillips 66, Houston, TX, Energy & Utilities,
+Pinnacle West Capital , Phoenix, AZ, Energy & Utilities,
+Pioneer Natural Resources , Irving, TX, Energy & Utilities,
+Plains All American Pipeline , Houston, TX, Energy & Utilities,
+PPL , Allentown, PA, Energy & Utilities,
+Public Service Enterprise Group , Newark, NJ, Energy & Utilities,
+Puget Sound Energy, Bellevue, WA, Energy & Utilities,
+QEP Resources , Denver, CO, Energy & Utilities,
+Regency Energy Partners, Dallas, TX, Energy & Utilities,
+Republic Services , Phoenix, AZ, Energy & Utilities,
+SandRidge Energy , Oklahoma City, OK, Energy & Utilities,
+SCANA , Cayce, SC, Energy & Utilities,
+Schnitzer Steel Industries , Portland, OR, Energy & Utilities,
+Sempra Energy, San Diego, CA, Energy & Utilities,
+SM Energy , Denver, CO, Energy & Utilities,
+Southern Company, Atlanta, GA, Energy & Utilities,
+Southwest Gas , Las Vegas, NV, Energy & Utilities,
+Southwestern Energy , Spring, TX, Energy & Utilities,
+Spectra Energy , Houston, TX, Energy & Utilities,
+SunEdison , Maryland Heights, MO, Energy & Utilities,
+Targa Resources , Houston, TX, Energy & Utilities,
+TECO Energy , Tampa, FL, Energy & Utilities,
+The AES , Arlington, VA, Energy & Utilities,
+UGI , King Of Prussia, PA, Energy & Utilities,
+United Refining , Warren, PA, Energy & Utilities,
+Vectren , Evansville, IN, Energy & Utilities,
+Waste Connections , Spring, TX, Energy & Utilities,
+Waste Management , Houston, TX, Energy & Utilities,
+WEC Energy Group, Milwaukee, WI, Energy & Utilities,
+WESCO Distribution Inc., Pittsburgh, PA, Energy & Utilities,
+Westar Energy , Topeka, KS, Energy & Utilities,
+Western Refining , El Paso, TX, Energy & Utilities,
+WGL Holdings , Washington, DC, Energy & Utilities,
+Whiting , Denver, CO, Energy & Utilities,
+World Fuel Services , Miami, FL, Energy & Utilities,
+WPX Energy, Tulsa, OK, Energy & Utilities,
+Xcel Energy , Minneapolis, MN, Energy & Utilities,
+Maxim Integrated Solutions, San Jose, CA, Engineering,
+ABM Industries , New York, NY, Facilities Management ,
+Ally Financial , Detroit, MI, Financial Services, Banks
+Bank of America, Charlotte, NC, Financial Services, Banks
+Bank of New York Mellon , New York, NY, Financial Services, Banks
+BB&T, Winston Salem, NC, Financial Services, Banks
+Citigroup, New York, NY, Financial Services, Banks
+Comerica , Dallas, TX, Financial Services, Banks
+Fidelity National Information Services , Jacksonville, FL, Financial Services, Banks
+Fifth Third Bancorp, Cincinnati, OH, Financial Services, Banks
+Huntington Bancshares, Columbus, OH, Financial Services, Banks
+JPMorgan Chase, New York, NY, Financial Services, Banks
+KeyCorp, Cleveland, OH, Financial Services, Banks
+M&T Bank , Buffalo, NY, Financial Services, Banks
+McGraw-Hill Financial , New York, NY, Financial Services, Banks
+New York Community Bank, Westbury, NY, Financial Services, Banks
+PNC Financial , Pittsburgh, PA, Financial Services, Banks
+Regions Financial , Birmingham, AL, Financial Services, Banks
+SunTrust Banks , Atlanta, GA, Financial Services, Banks
+U.S. Bancorp, Minneapolis, MN, Financial Services, Banks
+Wells Fargo , San Francisco, CA, Financial Services, Banks
+Zions Bancorporation, Salt Lake City, UT, Financial Services, Banks
+American Capital Agency , Bethesda, MD, Financial Services, Credit Cards Services
+American Express , New York, NY, Financial Services, Credit Cards Services
+Capital One , Mc Lean, VA, Financial Services, Credit Cards Services
+Discover Financial Services, Riverwoods, IL, Financial Services, Credit Cards Services
+First Data , Atlanta, GA, Financial Services, Credit Cards Services
+Fiserv , Brookfield, WI, Financial Services, Credit Cards Services
+Heartland Payment Systems , Princeton, NJ, Financial Services, Credit Cards Services
+MasterCard , Purchase, NY, Financial Services, Credit Cards Services
+SLM , Newark, DE, Financial Services, Credit Cards Services
+Vantiv , Cincinnati, OH, Financial Services, Credit Cards Services
+Visa , San Mateo, CA, Financial Services, Credit Cards Services
+Affiliated Managers Group , Beverly, MA, Financial Services, Investment Banking 
+Apollo Global , New York, NY, Financial Services, Investment Banking 
+Blackstone Group , New York, NY, Financial Services, Investment Banking 
+Carlyle Group, Washington, DC, Financial Services, Investment Banking 
+Franklin Resources , San Mateo, CA, Financial Services, Investment Banking 
+HRG Group , New York, NY, Financial Services, Investment Banking 
+Icahn Enterprises , New York, NY, Financial Services, Investment Banking 
+Kohlberg Kravis Roberts , New York, NY, Financial Services, Investment Banking 
+Leucadia National , New York, NY, Financial Services, Investment Banking 
+Morgan Stanley, New York, NY, Financial Services, Investment Banking 
+Oaktree Capital Group , Los Angeles, CA, Financial Services, Investment Banking 
+Stifel Financial , Saint Louis, MO, Financial Services, Investment Banking 
+T. Rowe Price , Baltimore, MD, Financial Services, Investment Banking 
+Valhi , Dallas, TX, Financial Services, Investment Banking 
+Annaly Capital Management , New York, NY, Financial Services, Lending and Mortgage
+CIT Group , New York, NY, Financial Services, Lending and Mortgage
+Federal Home Loan Mortgage Corporation (Freddie Mac), Mc Lean, VA, Financial Services, Lending and Mortgage
+Federal National Mortgage Association (Fannie Mae), Washington, DC, Financial Services, Lending and Mortgage
+Ocwen Financial , Atlanta, GA, Financial Services, Lending and Mortgage
+PHH , Mount Laurel, NJ, Financial Services, Lending and Mortgage
+Northern Trust , Chicago, IL, Financial Services,
+Raymond James Financial , Saint Petersburg, FL, Financial Services,
+State Street , Boston, MA, Financial Services,
+Ameriprise Financial, Minneapolis, MN, Financial Services,
+BGC Partners , New York, NY, Financial Services,
+BlackRock , New York, NY, Financial Services,
+Broadridge Financial Solutions , New Hyde Park, NY, Financial Services,
+Charles Schwab , San Francisco, CA, Financial Services,
+E*TRADE Financial , New York, NY, Financial Services,
+Edward Jones, Saint Louis, MO, Financial Services,
+First American Financial , Santa Ana, CA, Financial Services,
+Global Payments , Atlanta, GA, Financial Services,
+Goldman Sachs, New York, NY, Financial Services,
+H&R Block, Kansas City, MO, Financial Services,
+INTL FCStone , New York, NY, Financial Services,
+Legg Mason , Baltimore, MD, Financial Services,
+LPL Financial , Boston, MA, Financial Services,
+Moody's , New York, NY, Financial Services,
+Nasdaq OMX Group , New York, NY, Financial Services,
+Spectrum Group International , Irvine, CA, Financial Services,
+TD Ameritrade , Omaha, NE, Financial Services,
+Thrivent Financial for Lutherans, Minneapolis, MN, Financial Services,
+TIAA-CREF, New York, NY, Financial Services,
+Total System Services , Columbus, GA, Financial Services,
+United Services Automobile Association, San Antonio, TX, Financial Services,
+Western Union , Englewood, CO, Financial Services,
+KBR , Houston, TX, Government,
+Abbott Laboratories, Abbott Park, IL, Healthcare, Pharmaceuticals
+AbbVie , North Chicago, IL, Healthcare, Pharmaceuticals
+Alere , Waltham, MA, Healthcare, Pharmaceuticals
+Allergan , Irvine, CA, Healthcare, Pharmaceuticals
+AmerisourceBergen," Chesterbrook""", PA, Healthcare, Pharmaceuticals
+Amgen, Thousand Oaks, CA, Healthcare, Pharmaceuticals
+Anthem , Indianapolis, IN, Healthcare, Pharmaceuticals
+Apria Healthcare Group, Lake Forest, CA, Healthcare, Pharmaceuticals
+Avon Products , New York, NY, Healthcare, Pharmaceuticals
+Baxter International , Deerfield, IL, Healthcare, Pharmaceuticals
+Becton Dickinson and Company, Franklin Lakes, NJ, Healthcare, Pharmaceuticals
+Biogen Idec , Weston, MA, Healthcare, Pharmaceuticals
+Biomet , Warsaw, IN, Healthcare, Pharmaceuticals
+Bio-Rad Laboratories , Hercules, CA, Healthcare, Pharmaceuticals
+Boston Scientific, Marlborough, MA, Healthcare, Pharmaceuticals
+Bristol-Myers Squibb , New York, NY, Healthcare, Pharmaceuticals
+Brookdale Senior Living , Brentwood, TN, Healthcare, Pharmaceuticals
+C. R. Bard , New Providence, NJ, Healthcare, Pharmaceuticals
+Cardinal Health, Dublin, OH, Healthcare, Pharmaceuticals
+CareFusion, San Diego, CA, Healthcare, Pharmaceuticals
+Celgene , Summit, NJ, Healthcare, Pharmaceuticals
+Community Health, Franklin, TN, Healthcare, Pharmaceuticals
+Comscope, Orland Park, IL, Healthcare, Pharmaceuticals
+COVANCE , Princeton, NJ, Healthcare,
+DaVita , Denver, CO, Healthcare, Pharmaceuticals
+DENTSPLY International , York, PA, Healthcare, Pharmaceuticals
+Edwards Lifesciences , Irvine, CA, Healthcare, Pharmaceuticals
+Eli Lilly and Company, Indianapolis, IN, Healthcare, Pharmaceuticals
+Endo International , Dublin, D, Healthcare, Pharmaceuticals
+Envision Healthcare , Greenwood Vlg, CO, Healthcare, Pharmaceuticals
+Express Scripts , Saint Louis, MO, Healthcare, Pharmaceuticals
+Forest Laboratories , New York, NY, Healthcare, Pharmaceuticals
+Gilead Sciences , Foster City, CA, Healthcare, Pharmaceuticals
+HCA Holdings , Nashville, TN, Healthcare, Pharmaceuticals
+Health Care REIT , Toledo, OH, Healthcare, Pharmaceuticals
+Health Net, Woodland Hills, CA, Healthcare, Pharmaceuticals
+HealthSouth , Birmingham, AL, Healthcare, Pharmaceuticals
+Henry Schein , Melville, NY, Healthcare, Pharmaceuticals
+Hologic, Bedford, MA, Healthcare, Pharmaceuticals
+Hospira , Lake Forest, IL, Healthcare, Pharmaceuticals
+IASIS Healthcare, Franklin, TN, Healthcare, Pharmaceuticals
+Intuitive Surgical , Sunnyvale, CA, Healthcare, Pharmaceuticals
+Kindred Healthcare , Louisville, KY, Healthcare, Pharmaceuticals
+Laboratory Corp., Burlington, NC, Healthcare, Pharmaceuticals
+Lifepoint Health, Brentwood, TN, Healthcare, Pharmaceuticals
+Magellan Health Services , Scottsdale, AZ, Healthcare, Pharmaceuticals
+McKesson, San Francisco, CA, Healthcare, Pharmaceuticals
+MEDNAX , Fort Lauderdale, FL, Healthcare, Pharmaceuticals
+Medtronic , Minneapolis, MN, Healthcare, Pharmaceuticals
+Merck & Co. , Whitehouse Station, NJ, Healthcare, Pharmaceuticals
+Molina Healthcare , Long Beach, CA, Healthcare, Pharmaceuticals
+MWI Veterinary Supply, Boise, ID, Healthcare, Pharmaceuticals
+Mylan N.V., Canonsburg, PA, Healthcare, Pharmaceuticals
+NBTY , Ronkonkoma, NY, Healthcare, Pharmaceuticals
+Nu Skin Enterprises, Provo, UT, Healthcare, Pharmaceuticals
+Omnicare , Cincinnati, OH, Healthcare, Pharmaceuticals
+Owens & Minor , Mechanicsville, VA, Healthcare, Pharmaceuticals
+PAREXEL International, Waltham, MA, Healthcare, Pharmaceuticals
+Patterson Companies , Saint Paul, MN, Healthcare, Pharmaceuticals
+PerkinElmer , Waltham, MA, Healthcare, Pharmaceuticals
+Perrigo , Allegan, MI, Healthcare, Pharmaceuticals
+Pfizer , New York, NY, Healthcare, Pharmaceuticals
+Quest Diagnostics I, Madison, NJ, Healthcare, Pharmaceuticals
+Quintiles Transnational Holdings, Durham, NC, Healthcare, Pharmaceuticals
+Regeneron Pharmaceuticals , Tarrytown, NY, Healthcare, Pharmaceuticals
+Select Medical , Mechanicsburg, PA, Healthcare, Pharmaceuticals
+St. Jude Medical , Saint Paul, MN, Healthcare, Pharmaceuticals
+Stericycle , Lake Forest, IL, Healthcare, Pharmaceuticals
+Stryker , Portage, MI, Healthcare, Pharmaceuticals
+TeamHealth , Knoxville, TN, Healthcare, Pharmaceuticals
+Tenet Healthcare , Dallas, TX, Healthcare, Pharmaceuticals
+Thermo Fisher Scientific, Waltham, MA, Healthcare, Pharmaceuticals
+Universal Health Services , King Of Prussia, PA, Healthcare, Pharmaceuticals
+Vanguard Health Systems , Nashville, TN, Healthcare, Pharmaceuticals
+Varian Medical Systems , Palo Alto, CA, Healthcare, Pharmaceuticals
+WellCare Health Plans , Tampa, FL, Healthcare, Pharmaceuticals
+Zimmer Biomet , Warsaw, IN, Healthcare, Pharmaceuticals
+Hyatt Hotels, Chicago, IL, Hotel,
+Loews , New York, NY, Hotel,
+Marriott International , Bethesda, MD, Hotel,
+MGM Resorts , Las Vegas, NV, Hotel,
+Caesars Entertainment , Las Vegas, NV, Hotel,
+Hilton Worldwide, Mc Lean, VA, Hotel,
+Host Hotels & Resorts, Bethesda, MD, Hotel,
+Starwood Hotels, Stamford, CT, Hotel,
+Wyndham Worldwide , Parsippany, NJ, Hotel,
+Wynn Resorts , Las Vegas, NV, Hotel,
+ADP, Roseland, NJ, HR and Recruiting ,
+Kelly Services , Troy, MI, HR and Recruiting ,
+ManpowerGroup , Milwaukee, WI, HR and Recruiting ,
+Robert Half International , Menlo Park, CA, HR and Recruiting ,
+Volt Information Sciences , New York, NY, HR and Recruiting ,
+Aetna, Hartford, CT, Insurance ,
+AFLAC, Columbus, GA, Insurance ,
+Alleghany , New York, NY, Insurance ,
+Allstate Insurance , Northbrook, IL, Insurance ,
+American Family Insurance, Madison, WI, Insurance ,
+American Financial Group, Cincinnati, OH, Insurance ,
+American International Group (AIG), New York, NY, Insurance ,
+American National Insurance, Galveston, TX, Insurance ,
+Amica Mutual Insurance , Lincoln, RI, Insurance ,
+AmTrust Financial Services , New York, NY, Insurance ,
+Arthur J. Gallagher & Co., Itasca, IL, Insurance ,
+Auto-Owners Insurance , Lansing, MI, Insurance ,
+Berkshire Hathaway , Omaha, NE, Insurance ,
+Centene , Saint Louis, MO, Insurance ,
+Chubb , Warren, NJ, Insurance ,
+CIGNA , Hartford, CT, Insurance ,
+Cincinnati Financial , Fairfield, OH, Insurance ,
+CME Group , Chicago, IL, Insurance ,
+CNO Financial Group , Carmel, IN, Insurance ,
+Country Financial, Bloomington, IL, Insurance ,
+CUNA Mutual Group, Madison, WI, Insurance ,
+Erie Indemnity , Erie, PA, Insurance ,
+Fidelity National Financial , Jacksonville, FL, Insurance ,
+FM Global, Johnston, RI, Insurance ,
+Genworth Financial , Richmond, VA, Insurance ,
+Guardian Life Insurance Company of America, New York, NY, Insurance ,
+Hanover Insurance Group Inc., Worcester, MA, Insurance ,
+Hartford Financial , Hartford, CT, Insurance ,
+HCC Specialty Insurance, Houston, TX, Insurance ,
+Humana, Louisville, KY, Insurance ,
+Kemper , Chicago, IL, Insurance ,
+Liberty Mutual , Boston, MA, Insurance ,
+Lincoln Financial , Radnor, PA, Insurance ,
+Markel , Glen Allen, VA, Insurance ,
+Marsh & McLennan , New York, NY, Insurance ,
+Massachusetts Mutual  , Springfield, MA, Insurance ,
+Medical Mutual of Ohio, Cleveland, OH, Insurance ,
+Mercury General , Los Angeles, CA, Insurance ,
+MetLife , New York, NY, Insurance ,
+Mutual of America Life Insurance , New York, NY, Insurance ,
+Mutual of Omaha Insurance, Omaha, NE, Insurance ,
+National Life Group, Montpelier, VT, Insurance ,
+Nationwide Mutual Insurance , Columbus, OH, Insurance ,
+New York Life Insurance , New York, NY, Insurance ,
+Northwestern Mutual , Milwaukee, WI, Insurance ,
+Old Republic International , Chicago, IL, Insurance ,
+Pacific Life Insurance , Newport Beach, CA, Insurance ,
+Principal Financial , Des Moines, IA, Insurance ,
+Progressive , Cleveland, OH, Insurance ,
+Protective Life , Birmingham, AL, Insurance ,
+Prudential Financial , Newark, NJ, Insurance ,
+Reinsurance Group of America , Chesterfield, MO, Insurance ,
+Securian Financial, Saint Paul, MN, Insurance ,
+Selective Insurance Group , Branchville, NJ, Insurance ,
+Sentry Insurance, Stevens Point, WI, Insurance ,
+Stancorp Financial , Portland, OR, Insurance ,
+State Farm Insurance, Bloomington, IL, Insurance ,
+Stewart Information Services , Houston, TX, Insurance ,
+Symetra Financial , Bellevue, WA, Insurance ,
+Torchmark , Mckinney, TX, Insurance ,
+Travelers Companies , New York, NY, Insurance ,
+UnitedHealth Group, Minnetonka, MN, Insurance ,
+Universal American , White Plains, NY, Insurance ,
+UNUM Group, Chattanooga, TN, Insurance ,
+W. R. Berkley , Greenwich, CT, Insurance ,
+Western & Southern Financial , Cincinnati, OH, Insurance ,
+Aol, New York, NY, Internet Businesses,
+Facebook, Menlo Park, CA, Internet Businesses,
+Google , Mountain View, CA, Internet Businesses,
+IAC/InterActiveCorp, New York, NY, Internet Businesses,
+Netflix , Los Gatos, CA, Internet Businesses,
+Booz Allen Hamilton , Mc Lean, VA, Management Consulting,
+Diebold, North Canton, OH, Management Consulting,
+IMS Health , Danbury, CT, Management Consulting,
+Insperity, Kingwood, TX, Management Consulting,
+Leidos , Reston, VA, Management Consulting,
+Tetra Tech , Pasadena, CA, Management Consulting,
+Towers Watson & Co., Arlington, VA, Management Consulting,
+Allison Transmission , Indianapolis, IN, Manufacturing, Automobiles
+American Axle & Manufacturing , Detroit, MI, Manufacturing, Automobiles
+Autoliv , Auburn Hills, MI, Manufacturing, Automobiles
+Borg Warner Automotive, Auburn Hills, MI, Manufacturing, Automobiles
+BorgWarner , Auburn Hills, MI, Manufacturing, Automobiles
+Brunswick , Lake Forest, IL, Manufacturing, Automobiles
+Carlisle Companies , Charlotte, NC, Manufacturing, Automobiles
+Cooper Tire & Rubber , Findlay, OH, Manufacturing, Automobiles
+Dana Holding, Maumee, OH, Manufacturing, Automobiles
+Ford Motor , Dearborn, MI, Manufacturing, Automobiles
+General Motors , Detroit, MI, Manufacturing, Automobiles
+Harley-Davidson , Milwaukee, WI, Manufacturing, Automobiles
+Lear , Southfield, MI, Manufacturing, Automobiles
+Meritor , Troy, MI, Manufacturing, Automobiles
+Navistar International , Lisle, IL, Manufacturing, Automobiles
+PACCAR , Bellevue, WA, Manufacturing, Automobiles
+Polaris Industries, Medina, MN, Manufacturing, Automobiles
+Tenneco , Lake Forest, IL, Manufacturing, Automobiles
+Tesla Motors , Palo Alto, CA, Manufacturing, Automobiles
+Thor Industries , Elkhart, IN, Manufacturing, Automobiles
+TRW Automotive , Livonia, MI, Manufacturing, Automobiles
+Visteon , Van Buren Twp, MI, Manufacturing, Automobiles
+WABCO Holdings., Piscataway, NJ, Manufacturing, Automobiles
+Air Products and Chemicals , Allentown, PA, Manufacturing, Chemicals 
+Airgas Inc, Radnor, PA, Manufacturing, Chemicals 
+Albemarle , Baton Rouge, LA, Manufacturing, Chemicals 
+Ashland, Covington, KY, Manufacturing, Chemicals 
+Axiall , Atlanta, GA, Manufacturing, Chemicals 
+Cabot , Boston, MA, Manufacturing, Chemicals 
+Celanese , Irving, TX, Manufacturing, Chemicals 
+Chemtura , Philadelphia, PA, Manufacturing, Chemicals 
+Continental Resources , Oklahoma City, OK, Manufacturing, Chemicals 
+Cytec Industries , Woodland Park, NJ, Manufacturing, Chemicals 
+Dow Chemical , Midland, MI, Manufacturing, Chemicals 
+DuPont, Wilmington, DE, Manufacturing, Chemicals 
+Eastman Chemical , Kingsport, TN, Manufacturing, Chemicals 
+Ecolab , Saint Paul, MN, Manufacturing, Chemicals 
+FMC Corporation, Philadelphia, PA, Manufacturing, Chemicals 
+Green Plains , Omaha, NE, Manufacturing, Chemicals 
+H.B. Fuller , Saint Paul, MN, Manufacturing, Chemicals 
+Huntsman International, Salt Lake City, UT, Manufacturing, Chemicals 
+International Flavors & Fragrances , New York, NY, Manufacturing, Chemicals 
+Momentive Specialty Chemicals , Waterford, NY, Manufacturing, Chemicals 
+Mosaic , Minneapolis, MN, Manufacturing, Chemicals 
+NewMarket , Richmond, VA, Manufacturing, Chemicals 
+Nexeo Solutions , Spring, TX, Manufacturing, Chemicals 
+NuStar Energy , San Antonio, TX, Manufacturing, Chemicals 
+Occidental Petroleum , Houston, TX, Manufacturing, Chemicals 
+Oil States International , Arlington, TX, Manufacturing, Chemicals 
+Olin , Saint Louis, MO, Manufacturing, Chemicals 
+PPG Industries , Pittsburgh, PA, Manufacturing, Chemicals 
+Praxair , Danbury, CT, Manufacturing, Chemicals 
+Rockwood Holdings , Princeton, NJ, Manufacturing, Chemicals 
+Sigma-Aldrich, Saint Louis, MO, Manufacturing, Chemicals 
+Sunoco, Corpus Christi, TX, Manufacturing, Chemicals 
+Tesoro , San Antonio, TX, Manufacturing, Chemicals 
+Valero Energy , San Antonio, TX, Manufacturing, Chemicals 
+Valspar , Minneapolis, MN, Manufacturing, Chemicals 
+Westlake Chemical , Houston, TX, Manufacturing, Chemicals 
+Williams Companies , Tulsa, OK, Manufacturing, Chemicals 
+HNI Corporation, Muscatine, IA, Manufacturing,
+Aeropostale, Lyndhurst, NJ, Manufacturing,
+AK Steel , West Chester, OH, Manufacturing,
+Alcoa, New York, NY, Manufacturing,
+Aleris International , Beachwood, OH, Manufacturing,
+Altria Group , Richmond, VA, Manufacturing,
+AptarGroup , Crystal Lake, IL, Manufacturing,
+Armstrong World Industries , Lancaster, PA, Manufacturing,
+Avery Dennison , Glendale, CA, Manufacturing,
+Babcock & Wilcox , Charlotte, NC, Manufacturing,
+Ball Corporation, Broomfield, CO, Manufacturing,
+Beacon Roofing Supply, Herndon, VA, Manufacturing,
+Bemis Company , Neenah, WI, Manufacturing,
+Berry Plastics , Evansville, IN, Manufacturing,
+Boise Cascade , Boise, ID, Manufacturing,
+Carpenter Technology , Reading, PA, Manufacturing,
+Carter's, Atlanta, GA, Manufacturing,
+Caterpillar , Peoria, IL, Manufacturing,
+Church & Dwight Co. , Trenton, NJ, Manufacturing,
+Colfax , Fulton, MD, Manufacturing,
+Commercial Metals , Irving, TX, Manufacturing,
+Cooper-Standard , Novi, MI, Manufacturing,
+Corning , Corning, NY, Manufacturing,
+Crane, Stamford, CT, Manufacturing,
+Crane ChemPharma & Energy, Cullman, AL, Manufacturing,
+Cummins, Columbus, IN, Manufacturing,
+Danaher , Washington, DC, Manufacturing,
+Domtar , Montreal, QC, Manufacturing,
+Donaldson Company , Minneapolis, MN, Manufacturing,
+Dover Corporation, Downers Grove, IL, Manufacturing,
+Dresser-Rand, Houston, TX, Manufacturing,
+Emerson Electric , Saint Louis, MO, Manufacturing,
+Energizer , Saint Louis, MO, Manufacturing,
+EnerSys, Reading, PA, Manufacturing,
+Exide Technologies, Milton, GA, Manufacturing,
+Exterran , Houston, TX, Manufacturing,
+Flowserve , Irving, TX, Manufacturing,
+General Electric , Fairfield, CT, Manufacturing,
+Goodyear Tire & Rubber , Akron, OH, Manufacturing,
+Graphic Packaging , Atlanta, GA, Manufacturing,
+Greif , Delaware, OH, Manufacturing,
+Hanesbrands , Winston Salem, NC, Manufacturing,
+Harsco Corporation, Camp Hill, PA, Manufacturing,
+Hasbro Inc., Pawtucket, RI, Manufacturing,
+Hubbell , Shelton, CT, Manufacturing,
+IDEX, Lake Forest, IL, Manufacturing,
+Illinois Tool Works , Glenview, IL, Manufacturing,
+International Paper , Memphis, TN, Manufacturing,
+Jarden , Boca Raton, FL, Manufacturing,
+John Deere , Moline, IL, Manufacturing,
+Joy Global , Milwaukee, WI, Manufacturing,
+Kennametal , Latrobe, PA, Manufacturing,
+Kimberly-Clark , Irving, TX, Manufacturing,
+Leggett & Platt , Carthage, MO, Manufacturing,
+Levi Strauss and Co., San Francisco, CA, Manufacturing,
+Lincoln Electric , Cleveland, OH, Manufacturing,
+Lorillard Licensing , Greensboro, NC, Manufacturing,
+Louisiana-Pacific , Nashville, TN, Manufacturing,
+Manitowoc Company , Manitowoc, WI, Manufacturing,
+Martin Marietta Materials , Raleigh, NC, Manufacturing,
+Masco Corporation , Taylor, MI, Manufacturing,
+Mettler-Toledo , Columbus, OH, Manufacturing,
+Mohawk Industries , Calhoun, GA, Manufacturing,
+Mueller Industries , Memphis, TN, Manufacturing,
+National Oilwell Varco , Houston, TX, Manufacturing,
+Newell Rubbermaid , Atlanta, GA, Manufacturing,
+Nike , Beaverton,OR, Manufacturing,
+Nortek Holdings , Providence, RI, Manufacturing,
+Nucor , Charlotte, NC, Manufacturing,
+O-I - Owens Illinois, Perrysburg, OH, Manufacturing,
+Oshkosh , Oshkosh, WI, Manufacturing,
+Owens Corning, Toledo, OH, Manufacturing,
+Packaging Corporation of America, Lake Forest, IL, Manufacturing,
+Pall Corporation, Port Washington, NY, Manufacturing,
+Parker Hannifin , Cleveland, OH, Manufacturing,
+Phillip Morris , New York, NY, Manufacturing,
+Pitney Bowes , Stamford, CT, Manufacturing,
+Plexus Corp., Neenah, WI, Manufacturing,
+PolyOne , Avon Lake, OH, Manufacturing,
+Precision Castparts, Portland, OR, Manufacturing,
+R.J. Reynolds Tobacco, Winston Salem, NC, Manufacturing,
+Regal Beloit , Beloit, WI, Manufacturing,
+Reliance Steel and Aluminum, Los Angeles, CA, Manufacturing,
+Resolute Forest Products, Montreal , QC, Manufacturing,
+Rockwell Automation , Milwaukee, WI, Manufacturing,
+Roper Industries , Sarasota, FL, Manufacturing,
+RPM International , Medina, OH, Manufacturing,
+Scotts Miracle-Gro , Marysville, OH, Manufacturing,
+Sealed Air , Charlotte, NC, Manufacturing,
+Silgan, Union, MO, Manufacturing,
+Snap-on , Kenosha, WI, Manufacturing,
+Sonoco Products , Hartsville, SC, Manufacturing,
+SPX Corporation, Charlotte, NC, Manufacturing,
+Steel Dynamics , Fort Wayne, IN, Manufacturing,
+Steelcase , Grand Rapids, MI, Manufacturing,
+Superior Energy Services, Houston, TX, Manufacturing,
+TempurPedic Sealy International , Lexington, KY, Manufacturing,
+Terex , Westport, CT, Manufacturing,
+Timken , North Canton, OH, Manufacturing,
+Toro Company, Minneapolis, MN, Manufacturing,
+Tower International, Livonia, MI, Manufacturing,
+Trinity Industries , Dallas, TX, Manufacturing,
+Tupperware , Orlando, FL, Manufacturing,
+Under Armour , Baltimore, MD, Manufacturing,
+United States Steel , Pittsburgh, PA, Manufacturing,
+Universal , Richmond, VA, Manufacturing,
+Universal Forest Products, Grand Rapids, MI, Manufacturing,
+Wabtec , Wilmerding, PA, Manufacturing,
+WestRock, Richmond, VA, Manufacturing,
+Weyerhaeuser , Federal Way, WA, Manufacturing,
+Whirlpool , Benton Harbor, MI, Manufacturing,
+Wolverine World Wide , Rockford, MI, Manufacturing,
+Worthington Industries, Columbus, OH, Manufacturing,
+Xylem , Rye Brook, NY, Manufacturing,
+Hyster-Yale Materials Handling, Cleveland, OH, Manufacturing ,
+Stanley Black & Decker , New Britain, CT, Manufacturing ,
+Cablevision Systems , Bethpage, NY, Media & Entertainment,
+CBS , New York, NY, Media & Entertainment,
+Cinemark Holdings, Plano, TX, Media & Entertainment,
+Comcast Spotlight, Bloomfield, CT, Media & Entertainment,
+Discovery Communications , Silver Spring, MD, Media & Entertainment,
+DISH Network , Englewood, CO, Media & Entertainment,
+Gannett Co. , Mc Lean, VA, Media & Entertainment,
+iHeartMedia , San Antonio, TX, Media & Entertainment,
+Liberty Media , Englewood, CO, Media & Entertainment,
+Live Nation , Beverly Hills, CA, Media & Entertainment,
+Quad/Graphics , Sussex, WI, Media & Entertainment,
+R.R. Donnelley & Sons, Chicago, IL, Media & Entertainment,
+Regal Entertainment , Knoxville, TN, Media & Entertainment,
+Scripps Networks Interactive, Knoxville, TN, Media & Entertainment,
+Time Warner , New York, NY, Media & Entertainment,
+Tribune Company, Chicago, IL, Media & Entertainment,
+Univision , New York, NY, Media & Entertainment,
+Viacom , New York, NY, Media & Entertainment,
+Walt Disney , Burbank, CA, Media & Entertainment,
+Warner Music Group, New York, NY, Media & Entertainment,
+Yahoo, Sunnyvale, CA, Media & Entertainment,
+Knights of Columbus, New Haven, CT, Non-Profit,
+AECOM Technology , Los Angeles, CA, Real Estate , Construction 
+D.R. Horton , Fort Worth, TX, Real Estate , Construction 
+Jacobs Engineering, Pasadena, CA, Real Estate , Construction 
+Kiewit , Omaha, NE, Real Estate , Construction 
+NVR , Reston, VA, Real Estate , Construction 
+Ryland Group , Westlake Village, CA, Real Estate , Construction 
+Taylor Morrison Home , Scottsdale, AZ, Real Estate , Construction 
+Tutor Perini , Sylmar, CA, Real Estate , Construction 
+Willbros Group, Houston, TX, Real Estate , Construction 
+Bluelinx , Atlanta, GA, Real Estate , Construction 
+EMCOR Group, Norwalk, CT, Real Estate , Construction 
+Primoris Services , Dallas, TX, Real Estate , Construction 
+Titan Machinery , West Fargo, ND, Real Estate , Construction 
+United Rentals , Stamford, CT, Real Estate , Construction 
+USG Corporation, Chicago, IL, Real Estate , Construction 
+Boston Properties , Boston, MA, Real Estate ,
+CBRE Group , Los Angeles, CA, Real Estate ,
+Equity Residential, Chicago, IL, Real Estate ,
+General Growth Properties, Chicago, IL, Real Estate ,
+HCP , Irvine, CA, Real Estate ,
+Jones Lang LaSalle JLL, Chicago, IL, Real Estate ,
+KB Home, Los Angeles, CA, Real Estate ,
+Lennar , Miami, FL, Real Estate ,
+PULTEGROUP , Bloomfield Hills, MI, Real Estate ,
+Simon Property Group Inc., Indianapolis, IN, Real Estate ,
+Toll Brothers , Horsham, PA, Real Estate ,
+Ventas , Chicago, IL, Real Estate ,
+Vornado Realty , New York, NY, Real Estate ,
+Aaron's, Atlanta, GA, Retail,
+Abercrombie & Fitch Co., New Albany, OH, Retail,
+Acuity Brands , Atlanta, GA, Retail,
+Advance Auto Parts , Roanoke, VA, Retail,
+Aeropostale , New York, NY, Retail,
+American Eagle Outfitters, Pittsburgh, PA, Retail,
+Andersons , Maumee, OH, Retail,
+Ann Inc., New York, NY, Retail,
+Asbury Automotive Group, Duluth, GA, Retail,
+Ascena Retail Group, Mahwah, NJ, Retail,
+AutoNation, Fort Lauderdale, FL, Retail,
+AutoZone, Memphis, TN, Retail,
+Barnes & Noble , New York, NY, Retail,
+Bed Bath and Beyond, Union, NJ, Retail,
+Belk , Charlotte, NC, Retail,
+Big Lots , Columbus, OH, Retail,
+Bloomin' Brands , Tampa, FL, Retail,
+Bon-Ton Stores , York, PA, Retail,
+Brinker International , Dallas, TX, Retail,
+Burlington Stores , Burlington, NJ, Retail,
+Cabela's, Sidney, NE, Retail,
+Caleres , Saint Louis, MO, Retail,
+CarMax , Henrico, VA, Retail,
+Casey's General Stores , Ankeny, IA, Retail,
+Chico's FAS , Fort Myers, FL, Retail,
+Chipotle Mexican Grill , Denver, CO, Retail,
+Coach , New York, NY, Retail,
+Costco Wholesale , Issaquah, WA, Retail,
+Cracker Barrel , Lebanon, TN, Retail,
+CST Brands, San Antonio, TX, Retail,
+Darden Restaurants, Orlando, FL, Retail,
+Dick's Sporting Goods, Coraopolis, PA, Retail,
+Dillard's , Little Rock, AR, Retail,
+Dollar General , Goodlettsville, TN, Retail,
+Dollar Tree, Chesapeake, VA, Retail,
+DSW , Columbus, OH, Retail,
+Express , Columbus, OH, Retail,
+Family Dollar , Matthews, NC, Retail,
+Ferrellgas Partners, Overland Park, KS, Retail,
+Fred's Super Dollar/Fred's Inc., Memphis, TN, Retail,
+GameStop , Grapevine, TX, Retail,
+Gap , San Francisco, CA, Retail,
+Gap Inc, San Francisco, CA, Retail,
+Global Partners, Waltham, MA, Retail,
+GNC Holdings , Pittsburgh, PA, Retail,
+Group 1 Automotive, Houston, TX, Retail,
+Guess , Los Angeles, CA, Retail,
+Harris Teeter, Matthews, NC, Retail,
+hhgregg , Indianapolis, IN, Retail,
+Home Depot , Atlanta, GA, Retail,
+HSN , Saint Petersburg, FL, Retail,
+Ingles Markets , Black Mountain, NC, Retail,
+J Crew , New York, NY, Retail,
+J. C. Penney , Plano, TX, Retail,
+Kohl's , Menomonee Falls, WI, Retail,
+Kroger , Cincinnati, OH, Retail,
+L Brands , Columbus, OH, Retail,
+Las Vegas  Corp, Brownsburg, IN, Retail,
+Lithia Motors , Medford, OR, Retail,
+Lowe's , Mooresville, NC, Retail,
+Macy's , Cincinnati, OH, Retail,
+Mattel , El Segundo, CA, Retail,
+McDonald's , Oak Brook, IL, Retail,
+Men's Wearhouse , Houston, TX, Retail,
+Michaels , Irving, TX, Retail,
+Neiman Marcus, Dallas, TX, Retail,
+Nordstrom , Seattle, WA, Retail,
+Office Depot , Boca Raton, FL, Retail,
+O'Reilly Automotive , Springfield, MO, Retail,
+Panera Bread , Saint Louis, MO, Retail,
+Party City, Rockaway, NJ, Retail,
+Penske Automotive Group , Bloomfield Hills, MI, Retail,
+Pep Boys , Philadelphia, PA, Retail,
+PetSmart , Phoenix, AZ, Retail,
+PriceSmart , San Diego, CA, Retail,
+Publix Super Markets , Lakeland, FL, Retail,
+PVH , New York, NY, Retail,
+Ralph Lauren , New York, NY, Retail,
+Regis Corporation, Minneapolis, MN, Retail,
+Rent-A-Center , Plano, TX, Retail,
+Rite Aid , Camp Hill, PA, Retail,
+Ross Stores , Dublin, CA, Retail,
+Roundy's Supermarkets , Milwaukee, WI, Retail,
+Rush Enterprises, New Braunfels, TX, Retail,
+Safeway , Pleasanton, CA, Retail,
+Sally Beauty , Denton, TX, Retail,
+Sears , Hoffman Estates, IL, Retail,
+Sherwin-Williams , Cleveland, OH, Retail,
+Sonic Automotive , Charlotte, NC, Retail,
+SpartanNash Company, Byron Center, MI, Retail,
+Sprout's Farmers Market, Phoenix, AZ, Retail,
+Staples , Framingham, MA, Retail,
+Starbucks , Seattle, WA, Retail,
+Stater Brothers Markets, San Bernardino, CA, Retail,
+Supervalu , Eden Prairie, MN, Retail,
+Target , Minneapolis, MN, Retail,
+The Pantry , Cary, NC, Retail,
+Tiffany & Co., New York, NY, Retail,
+TJX , Framingham, MA, Retail,
+TOPS Markets , Buffalo, NY, Retail,
+"TOYS ""R"" US ", Wayne, NJ, Retail,
+Tractor Supply Company , Brentwood, TN, Retail,
+TravelCenters of America , Westlake, OH, Retail,
+Urban Outfitters , Philadelphia, PA, Retail,
+VF Corporation, Greensboro, NC, Retail,
+Wal-Mart , Bentonville, AR, Retail,
+Weis Markets , Sunbury, PA, Retail,
+Whole Foods Market , Austin, TX, Retail,
+Williams-Sonoma , San Francisco, CA, Retail,
+YUM! Brands , Louisville, KY, Retail,
+Walgreens , Deerfield, IL, Retail, Healthcare
+Ulta Salon , Bolingbrook, IL, Retail ,
+CVS Health, Woonsocket, RI, Retail , Pharmaceuticals
+ADT , Boca Raton, FL, Security Services,
+Brink's , Richmond, VA, Security Services,
+MasTec , Miami, FL, Security Services,
+CACI International , Arlington, VA, Software & Internet, Data Analytics
+Iron Mountain , Boston, MA, Software & Internet, Data Analytics
+NetApp , Sunnyvale, CA, Software & Internet, Data Analytics
+Symantec Corporation, Mountain View, CA, Software & Internet, Data Analytics
+SYNNEX , Fremont, CA, Software & Internet, Data Analytics
+Activision Blizzard, Santa Monica, CA, Software & Internet, Gaming
+Electronic Arts , Redwood City, CA, Software & Internet, Gaming
+Adobe Systems , San Jose, CA, Software & Internet,
+Autodesk , San Rafael, CA, Software & Internet,
+BMC Software , Houston, TX, Software & Internet,
+CA Technologies, New York, NY, Software & Internet,
+Cerner , Kansas City, MO, Software & Internet,
+Citrix Systems , Fort Lauderdale, FL, Software & Internet,
+Computer Sciences , Falls Church, VA, Software & Internet,
+Intuit , Mountain View, CA, Software & Internet,
+Microsoft , Redmond, WA, Software & Internet,
+Oracle , Redwood City, CA, Software & Internet,
+Raytheon , Waltham, MA, Software & Internet,
+Sabre Holdings , Southlake, TX, Software & Internet,
+Salesforce.com, San Francisco, CA, Software & Internet,
+Science Applications  International , Mc Lean, VA, Software & Internet,
+Public Storage , Glendale, CA, Storage,
+Charter Communications , Stamford, CT, Telecommunications, Cable Providers
+Comcast , Philadelphia, PA, Telecommunications, Cable Providers
+DIRECTV, El Segundo, CA, Telecommunications, Cable Providers
+Time Warner Cable, New York, NY, Telecommunications, Cable Providers
+Agilent Technologies., Santa Clara, CA, Telecommunications,
+American Tower , Boston, MA, Telecommunications,
+Anixter International, Glenview, IL, Telecommunications,
+ARRIS Group , Suwanee, GA, Telecommunications,
+Avaya , Santa Clara, CA, Telecommunications,
+CIENA , Hanover, MD, Telecommunications,
+Motorola Solutions , Schaumburg, IL, Telecommunications,
+West Corporation, Omaha, NE, Telecommunications,
+AT&T, Dallas, TX, Telecommunications,
+CenturyLink , Monroe, LA, Telecommunications,
+Frontier Communications , Stamford, CT, Telecommunications,
+Telephone & Data Systems , Chicago, IL, Telecommunications,
+Verizon Communications , New York, NY, Telecommunications,
+Windstream , Little Rock, AR, Telecommunications,
+CommScope , Hickory, NC, Telecommunications, Wireless and Mobile
+Crown Castle International , Houston, TX, Telecommunications, Wireless and Mobile
+Harris Corporation, Melbourne, FL, Telecommunications, Wireless and Mobile
+Leap Wireless International , San Diego, CA, Telecommunications, Wireless and Mobile
+NII Holdings , Reston, VA, Telecommunications, Wireless and Mobile
+Level 3 Communications , Broomfield, CO, Telecommunications,
+Qualcomm , San Diego, CA, Telecommunications,
+AMERCO, Reno, NV, Transportation ,
+Arkansas Best , Fort Smith, AR, Transportation ,
+C.H. Robinson Worldwide , Eden Prairie, MN, Transportation ,
+Con-Way , Ann Arbor, MI, Transportation ,
+CSX Corporation, Jacksonville, FL, Transportation ,
+Expeditors International , Seattle, WA, Transportation ,
+FedEx , Memphis, TN, Transportation ,
+Hub Group, Oak Brook, IL, Transportation ,
+J.B. Hunt , Lowell, AR, Transportation ,
+Kansas City Southern, Kansas City, MO, Transportation ,
+Kirby , Houston, TX, Transportation ,
+Landstar System , Jacksonville, FL, Transportation ,
+Magellan Midstream Partners, Tulsa, OK, Transportation ,
+Norfolk Southern , Norfolk, VA, Transportation ,
+Old Dominion Freight Line , Thomasville, NC, Transportation ,
+Rdyer System, Miami, FL, Transportation ,
+Ryder System , Miami, FL, Transportation ,
+SIRVA , Oakbrook Terrace, IL, Transportation ,
+Swift Transportation , Phoenix, AZ, Transportation ,
+Union Pacific , Omaha, NE, Transportation ,
+United Parcel Service , Atlanta, GA, Transportation ,
+Werner Enterprises , Omaha, NE, Transportation ,
+YRC WorldWide , Overland Park, KS, Transportation ,
+Boyd Gaming , Las Vegas, NV, Travel, Gaming
+International Game Technology , Reno, NV, Travel, Gaming
+Penn National Gaming , Reading, PA, Travel, Gaming
+American Tire Distributors, Huntersville, NC, Wholesale & Distribution,
+Applied Industrial Technologies, Cleveland, OH, Wholesale & Distribution,
+Atmos Energy , Dallas, TX, Wholesale & Distribution,
+Cintas , Mason, OH, Wholesale & Distribution,
+Core-Mark International , South San Francisco, CA, Wholesale & Distribution,
+Essendant , Deerfield, IL, Wholesale & Distribution,
+Fastenal Company, Winona, MN, Wholesale & Distribution,
+Fortune Brands Home & Security, Deerfield, IL, Wholesale & Distribution,
+Genesco Inc., Nashville, TN, Wholesale & Distribution,
+Genuine Parts , Atlanta, GA, Wholesale & Distribution,
+Grainger , Lake Forest, IL, Wholesale & Distribution,
+Graybar Services , Saint Louis, MO, Wholesale & Distribution,
+HD Supply, Atlanta, GA, Wholesale & Distribution,
+KAR Auction Service  , Carmel, IN, Wholesale & Distribution,
+LKQ , Chicago, IL, Wholesale & Distribution,
+MRC Global , Houston, TX, Wholesale & Distribution,
+MSC Industrial Direct Co. , Melville, NY, Wholesale & Distribution,
+Ryerson Holding , Chicago, IL, Wholesale & Distribution,
+Seaboard , Shawnee Msn, KS, Wholesale & Distribution,
+SYSCO , Houston, TX, Wholesale & Distribution,
+The Jones Group , New York, NY, Wholesale & Distribution,
+Unified Grocers , Los Angeles, CA, Wholesale & Distribution,
+US Foods, Rosemont, IL, Wholesale & Distribution,
+VERSO , Memphis, TN, Wholesale & Distribution,
+VWR International , Radnor, PA, Wholesale & Distribution,
+Watsco , Coconut Grove, FL, Wholesale & Distribution,
