@@ -3,6 +3,26 @@ var Container = React.createClass({
     return (
       <div>
         <IndustryContainer />
+        <CompanyContainer />
+      </div>
+    )
+  }
+})
+
+var CompanyContainer = React.createClass({
+  getInitialState: function() {
+    return {companies: []}
+  },
+  componentDidMount: function() {
+    var self = this;
+    Companies.getCompanies(function(result){
+      self.setState({companies: result.companies})
+    })
+  },
+  render: function() {
+    return (
+      <div>
+        <CompanyList companies={this.state.companies} />
       </div>
     )
   }
@@ -34,35 +54,57 @@ var IndustryContainer = React.createClass({
   }
 })
 
-var IndustryList = React.createClass({
+var CompanyList = React.createClass({
   render: function() {
-    var blah = this.props.industries.map(function(industry){
+    var companyNode = this.props.companies.map(function(company){
       return (
-        <Industry name={industry.name} key={industry.id} />
+        <Company name={company.name} key={company.id} />
       )
     })
     return (
-      <div>
-        {blah}
-      </div>
-    )
-  }
-})
-
-var Industry = React.createClass({
-  render: function() {
-    return (
-      <ul>
-        <li>{this.props.name}</li>
+      <ul style={{float: 'right'}}>
+        {companyNode}
       </ul>
     )
   }
 })
 
-//Container - parent of IndustryContainer and CompanyContainer
-//IndustryContainer - parent of IndustryList
-//IndustryList - child of IndustryList. parent of Industry
-//Industry - child of IndustryList
-//CompanyContainer - parent of CompanyList
-//CompanyList - child of CompanyContainer. parent of Company
-//Company - child of CompanyList
+var IndustryList = React.createClass({
+  loadCompanies: function() {
+    //call action here
+  },
+  render: function() {
+    var industryNode = this.props.industries.map(function(industry){
+      return (
+        <Industry industryId={industry.id} name={industry.name} key={industry.id} />
+      )
+    })
+    return (
+      <ul style={{float: 'left'}}>
+        {industryNode}
+      </ul>
+    )
+  }
+})
+
+var Company = React.createClass({
+  render: function() {
+    return (
+      <li>{this.props.name}</li>
+    )
+  }
+})
+
+var Industry = React.createClass({
+  test: function(event) {
+    var self = this;
+    Companies.getCompanies(function(result){
+      self.setState({companies: []})
+    });
+  },
+  render: function() {
+    return (
+      <li><input type="checkbox" value={this.props.name} onClick={this.test}/>{this.props.name} </li>
+    )
+  }
+})
