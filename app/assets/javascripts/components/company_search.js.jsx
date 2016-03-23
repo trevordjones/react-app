@@ -1,54 +1,56 @@
 var Container = React.createClass({
+  getInitialState: function() {
+    return {companies: [], industries: []}
+  },
+  loadCompanies: function(industryId, checked) {
+    var self = this;
+    if (typeof checked !== 'undefined') {
+      if (checked) {
+        Companies.industryIds.push(industryId)
+      } else {
+        Companies.industryIds.splice(Companies.industryIds.indexOf(industryId), 1);
+      }
+    }  
+    Companies.getCompanies(function(result){
+      self.setState({companies: result.companies})
+    })
+  },
+  componentDidMount: function() {
+    var self = this;
+    this.loadCompanies();
+    Industries.getIndustries(function(result){
+      self.setState({industries: result.industries})
+    })
+  },
   render: function() {
     return (
       <div>
-        <IndustryContainer />
-        <CompanyContainer />
+        <IndustryContainer filter={this.loadCompanies} industries={this.state.industries} />
+        <CompanyContainer companies={this.state.companies} />
       </div>
     )
   }
 })
 
 var CompanyContainer = React.createClass({
-  getInitialState: function() {
-    return {companies: []}
-  },
-  componentDidMount: function() {
-    var self = this;
-    Companies.getCompanies(function(result){
-      self.setState({companies: result.companies})
-    })
-  },
   render: function() {
     return (
       <div>
-        <CompanyList companies={this.state.companies} />
+        {this.props.companies.length}
+        <CompanyList companies={this.props.companies} />
       </div>
     )
   }
 })
 
 var IndustryContainer = React.createClass({
-  getInitialState: function() {
-    return {industries: []}
-  },
-  componentDidMount: function() {
-    $.ajax({
-      url: '/api/v1/industries.json',
-      dataType: 'json',
-      cache: false,
-      success: function(data) {
-        this.setState({industries: data.industries});
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.log(this.props.url, status, err.toString());
-      }.bind(this)
-    })
+  filterIndustryContainer: function(industryId, checked) {
+    this.props.filter(industryId, checked)
   },
   render: function() {
     return (
       <div>
-        <IndustryList industries={this.state.industries} />
+        <IndustryList filter={this.filterIndustryContainer}  container={this.bigContainer} industries={this.props.industries} />
       </div>
     )
   }
@@ -56,6 +58,7 @@ var IndustryContainer = React.createClass({
 
 var CompanyList = React.createClass({
   render: function() {
+    var self = this;
     var companyNode = this.props.companies.map(function(company){
       return (
         <Company name={company.name} key={company.id} />
@@ -70,13 +73,14 @@ var CompanyList = React.createClass({
 })
 
 var IndustryList = React.createClass({
-  loadCompanies: function() {
-    //call action here
+  filterIndustryList: function(industryId, checked) {
+    this.props.filter(industryId, checked)
   },
   render: function() {
+    var self = this;
     var industryNode = this.props.industries.map(function(industry){
       return (
-        <Industry industryId={industry.id} name={industry.name} key={industry.id} />
+        <Industry filter={self.filterIndustryList} industryId={industry.id} name={industry.name} key={industry.id} />
       )
     })
     return (
@@ -96,15 +100,12 @@ var Company = React.createClass({
 })
 
 var Industry = React.createClass({
-  test: function(event) {
-    var self = this;
-    Companies.getCompanies(function(result){
-      self.setState({companies: []})
-    });
+  filterIndustry: function(event) {
+    this.props.filter(this.props.industryId, event.target.checked);
   },
   render: function() {
     return (
-      <li><input type="checkbox" value={this.props.name} onClick={this.test}/>{this.props.name} </li>
+      <li><input type="checkbox" value={this.props.name} onClick={this.filterIndustry}/>{this.props.name} </li>
     )
   }
 })

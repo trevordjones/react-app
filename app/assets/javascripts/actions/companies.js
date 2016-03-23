@@ -7,7 +7,7 @@ var Companies = (function() {
       type: 'get',
       dataType: 'json',
       data: {
-        industries: industryIds
+        industry_ids: industryIds
       },
       success: function(data){
         company_response(data)
