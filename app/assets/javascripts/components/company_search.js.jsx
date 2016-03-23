@@ -12,7 +12,14 @@ var Container = React.createClass({
       }
     }  
     Companies.getCompanies(function(result){
-      self.setState({companies: result.companies})
+      self.setState({companies: result.companies, limit: result.search_size})
+    })
+  },
+  loadMore: function() {
+    Companies.resetLimit();
+    var self = this;
+    Companies.getCompanies(function(result){
+      self.setState({companies: result.companies, limit: result.search_size})
     })
   },
   componentDidMount: function() {
@@ -26,19 +33,34 @@ var Container = React.createClass({
     return (
       <div>
         <IndustryContainer filter={this.loadCompanies} industries={this.state.industries} />
-        <CompanyContainer companies={this.state.companies} />
+        <CompanyContainer filter={this.loadMore} companies={this.state.companies} limit={this.state.limit} />
       </div>
     )
   }
 })
 
 var CompanyContainer = React.createClass({
+  loadMore: function() {
+    this.props.filter()
+  },
   render: function() {
     return (
       <div>
-        {this.props.companies.length}
+        {this.props.limit}
         <CompanyList companies={this.props.companies} />
+        <Button loadMore={this.loadMore} />
       </div>
+    )
+  }
+})
+
+var Button = React.createClass({
+  loadMore: function() {
+    this.props.loadMore();
+  },
+  render: function() {
+    return (
+      <button onClick={this.loadMore}>Load More</button>
     )
   }
 })
@@ -50,13 +72,16 @@ var IndustryContainer = React.createClass({
   render: function() {
     return (
       <div>
-        <IndustryList filter={this.filterIndustryContainer}  container={this.bigContainer} industries={this.props.industries} />
+        <IndustryList filter={this.filterIndustryContainer} industries={this.props.industries} />
       </div>
     )
   }
 })
 
 var CompanyList = React.createClass({
+  getInitialState: function() {
+    return ({limit: Companies.limit})
+  },
   render: function() {
     var self = this;
     var companyNode = this.props.companies.map(function(company){

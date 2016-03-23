@@ -1,5 +1,10 @@
 var Companies = (function() {
   var industryIds = [];
+  var limit = 20;
+  
+  var resetLimit = function() {
+    limit += 20;
+  }
   
   var getCompanies = function(company_response) {
     $.ajax({
@@ -7,7 +12,8 @@ var Companies = (function() {
       type: 'get',
       dataType: 'json',
       data: {
-        industry_ids: industryIds
+        industry_ids: industryIds,
+        limit: limit
       },
       success: function(data){
         company_response(data)
@@ -20,6 +26,7 @@ var Companies = (function() {
   
   return {
     industryIds: industryIds,
+    resetLimit: resetLimit,
     getCompanies: getCompanies
   }
 })();
