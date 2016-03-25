@@ -4,7 +4,12 @@ module Api
       def index
         @limit = params[:limit]
         @companies = Company.all
-        @companies = Company.by_industry(params[:industry_ids]) if params[:industry_ids]
+        @companies = @companies.by_city(params[:city]) if params[:city]
+        @companies = @companies.by_industry(params[:industry_ids]) if params[:industry_ids]
+      end
+      
+      def city_search
+        @companies = Company.by_city(params[:text]) if params[:text]
       end
     end
   end

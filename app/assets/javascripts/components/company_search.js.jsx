@@ -1,22 +1,23 @@
 var Container = React.createClass({
   getInitialState: function() {
-    return {companies: [], industries: []}
+    return {companies: [], industries: [], cities: []}
   },
-  loadCompanies: function(industryId, checked) {
+  loadCompanies: function(industryId, city, checked) {
     var self = this;
     if (typeof checked !== 'undefined') {
       if (checked) {
-        Companies.industryIds.push(industryId)
+        Companies.company.industryIds.push(industryId)
       } else {
-        Companies.industryIds.splice(Companies.industryIds.indexOf(industryId), 1);
+        Companies.company.industryIds.splice(Companies.company.industryIds.indexOf(industryId), 1);
       }
-    }  
+    }
+    Companies.company.city = city;
     Companies.getCompanies(function(result){
       self.setState({companies: result.companies, limit: result.search_size})
     })
   },
   loadMore: function() {
-    Companies.resetLimit();
+    Companies.company.limit =+ 20;
     var self = this;
     Companies.getCompanies(function(result){
       self.setState({companies: result.companies, limit: result.search_size})
@@ -29,12 +30,59 @@ var Container = React.createClass({
       self.setState({industries: result.industries})
     })
   },
+  citySearch: function(text) {
+    var self = this;
+    if (text.length === 0) {
+      self.setState({cities: []})
+    } else {
+      Companies.getCityCompanies(text, function(result) {
+        self.setState({cities: result.companies})
+      })
+    }
+  },
   render: function() {
     return (
       <div>
         <IndustryContainer filter={this.loadCompanies} industries={this.state.industries} />
         <CompanyContainer filter={this.loadMore} companies={this.state.companies} limit={this.state.limit} />
+        <Typeahead clickSearch={this.loadCompanies} citySearch={this.citySearch} companies={this.state.cities}/>
       </div>
+    )
+  }
+})
+
+var Typeahead = React.createClass({
+  clickSearch: function(city) {
+    this.props.clickSearch(Companies.company.industryIds, city)
+  },
+  search: function(event) {
+    this.props.citySearch(event.target.value)
+  },
+  render: function() {
+    return (
+      <div>
+      <input onChange={this.search} type="text"></input>
+      <SearchList click={this.clickSearch} companies={this.props.companies}/>
+      </div>
+    )
+  }
+})
+
+var SearchList = React.createClass({
+  click: function(event) {
+    this.props.click(event.target.innerHTML)
+  },
+  render: function() {
+    var self = this;
+    var searchItem = this.props.companies.map(function(company){
+      return (
+        <li onClick={self.click}>{company.city}</li>
+      )
+    })
+    return (
+      <ul>
+        {searchItem}
+      </ul>
     )
   }
 })
@@ -67,7 +115,7 @@ var Button = React.createClass({
 
 var IndustryContainer = React.createClass({
   filterIndustryContainer: function(industryId, checked) {
-    this.props.filter(industryId, checked)
+    this.props.filter(industryId, Companies.company.city, checked)
   },
   render: function() {
     return (

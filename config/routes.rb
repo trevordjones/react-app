@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       get '/industries' => 'industries#index'
       get '/companies' => 'companies#index'
+      get '/company_cities' => 'companies#city_search'
     end
   end
 

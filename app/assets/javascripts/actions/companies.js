@@ -1,9 +1,8 @@
 var Companies = (function() {
-  var industryIds = [];
-  var limit = 20;
-  
-  var resetLimit = function() {
-    limit += 20;
+  var company = {
+    industryIds: [],
+    city: '',
+    limit: 20
   }
   
   var getCompanies = function(company_response) {
@@ -12,8 +11,9 @@ var Companies = (function() {
       type: 'get',
       dataType: 'json',
       data: {
-        industry_ids: industryIds,
-        limit: limit
+        industry_ids: company.industryIds,
+        city: company.city,
+        limit: company.limit
       },
       success: function(data){
         company_response(data)
@@ -24,9 +24,26 @@ var Companies = (function() {
     })
   }
   
+  var getCityCompanies = function(text, city_response) {
+    $.ajax({
+      url: 'api/v1/company_cities.json',
+      type: 'get',
+      dataType: 'json',
+      data: {
+        text: text
+      },
+      success: function(data) {
+        city_response(data)
+      },
+      error: function(xhr) {
+        console.log(xhr)
+      }
+    })
+  }
+  
   return {
-    industryIds: industryIds,
-    resetLimit: resetLimit,
-    getCompanies: getCompanies
+    company: company,
+    getCompanies: getCompanies,
+    getCityCompanies: getCityCompanies,
   }
 })();
