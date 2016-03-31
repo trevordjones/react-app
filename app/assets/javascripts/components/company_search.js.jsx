@@ -6,18 +6,18 @@ var Container = React.createClass({
     var self = this;
     if (typeof checked !== 'undefined') {
       if (checked) {
-        Companies.company.industryIds.push(industryId)
+        Companies.company_parameters.industryIds.push(industryId)
       } else {
-        Companies.company.industryIds.splice(Companies.company.industryIds.indexOf(industryId), 1);
+        Companies.company_parameters.industryIds.splice(Companies.company_parameters.industryIds.indexOf(industryId), 1);
       }
     }
-    Companies.company.city = city;
+    Companies.company_parameters.city = city;
     Companies.getCompanies(function(result){
       self.setState({companies: result.companies, limit: result.search_size})
     })
   },
-  loadMore: function() {
-    Companies.company.limit =+ 20;
+  loadMoreCompanies: function() {
+    Companies.company_parameters.limit += 20;
     var self = this;
     Companies.getCompanies(function(result){
       self.setState({companies: result.companies, limit: result.search_size})
@@ -30,12 +30,12 @@ var Container = React.createClass({
       self.setState({industries: result.industries})
     })
   },
-  citySearch: function(text) {
+  typeaheadSearch: function(text) {
     var self = this;
     if (text.length === 0) {
       self.setState({cities: []})
     } else {
-      Companies.getCityCompanies(text, function(result) {
+      Companies.getCompaniesByCity(text, function(result) {
         self.setState({cities: result.companies})
       })
     }
@@ -43,9 +43,9 @@ var Container = React.createClass({
   render: function() {
     return (
       <div>
-        <IndustryComponents.IndustryContainer filter={this.loadCompanies} industries={this.state.industries} />
-        <CompanyComponents.CompanyContainer filter={this.loadMore} companies={this.state.companies} limit={this.state.limit} />
-        <TypeaheadComponents.Typeahead clickSearch={this.loadCompanies} citySearch={this.citySearch} companies={this.state.cities}/>
+        <IndustryComponents.IndustryContainer filterByIndustry={this.loadCompanies} industries={this.state.industries} />
+        <CompanyComponents.CompanyContainer loadMoreCompanies={this.loadMoreCompanies} companies={this.state.companies} limit={this.state.limit} />
+        <TypeaheadComponents.Typeahead searchByCity={this.loadCompanies} typeaheadSearch={this.typeaheadSearch} companies={this.state.cities}/>
       </div>
     )
   }

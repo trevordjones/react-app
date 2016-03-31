@@ -1,27 +1,27 @@
 var CompanyComponents = (function() {
   
   var CompanyContainer = React.createClass({
-    loadMore: function() {
-      this.props.filter()
+    loadMoreCompanies: function() {
+      this.props.loadMoreCompanies()
     },
     render: function() {
       return (
         <div>
           {this.props.limit}
           <CompanyList companies={this.props.companies} />
-          <Button loadMore={this.loadMore} />
+          <Button loadMoreCompanies={this.loadMoreCompanies} />
         </div>
       )
     }
   })
 
   var Button = React.createClass({
-    loadMore: function() {
-      this.props.loadMore();
+    loadMoreCompanies: function() {
+      this.props.loadMoreCompanies();
     },
     render: function() {
       return (
-        <button onClick={this.loadMore}>Load More</button>
+        <button onClick={this.loadMoreCompanies}>Load More</button>
       )
     }
   })
