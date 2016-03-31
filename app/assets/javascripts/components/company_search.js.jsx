@@ -40,12 +40,15 @@ var Container = React.createClass({
       })
     }
   },
+  resetCities: function() {
+    this.setState({cities: []})
+  },
   render: function() {
     return (
       <div>
         <IndustryComponents.IndustryContainer filterByIndustry={this.loadCompanies} industries={this.state.industries} />
         <CompanyComponents.CompanyContainer loadMoreCompanies={this.loadMoreCompanies} companies={this.state.companies} limit={this.state.limit} />
-        <TypeaheadComponents.Typeahead searchByCity={this.loadCompanies} typeaheadSearch={this.typeaheadSearch} companies={this.state.cities}/>
+        <TypeaheadComponents.Typeahead resetCities={this.resetCities} searchByCity={this.loadCompanies} typeaheadSearch={this.typeaheadSearch} companies={this.state.cities}/>
       </div>
     )
   }
